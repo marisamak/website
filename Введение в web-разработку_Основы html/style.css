@@ -1,0 +1,35 @@
+body {
+    background-color: #6495ed;
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+
+#text {
+    background-color: green;
+    color: blue;
+}
+
+
+.text {
+    background-color: yellow; /*фон элемента*/
+    color: orange; /*цвет текста внутри элемента*/
+    font-size: 30px;
+    font-family: Times New Roman, cursive;
+
+    font-weight: 900;
+    width: 50%; /*ширина элемента - 50% от вершины родительского контейнера*/
+    height: 100px;
+    padding: 20px;
+
+    border: 5px solid black;
+    border-width: 5px 10px 15px 20px; /*начинаем с левой стороны*/
+    border-style: dotted solid dashed double;
+    border-color: red green blue yellow;
+    border-radius: 10px;
+    margin: 10px;
+}
