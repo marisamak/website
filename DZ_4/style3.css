@@ -1,0 +1,14 @@
+@keyframes changeColor {
+    0% {background-color: orange;}
+    100% {background-color: blue;}
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    animation: changeColor 1.0s forwards;
+}

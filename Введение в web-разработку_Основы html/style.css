@@ -18,18 +18,18 @@ p {
 .text {
     background-color: yellow; /*фон элемента*/
     color: orange; /*цвет текста внутри элемента*/
-    font-size: 30px;
-    font-family: Times New Roman, cursive;
+    font-size: 30px; /*размер шрифта*/
+    font-family: Times New Roman, cursive; /*семейство шрифтов*/
 
-    font-weight: 900;
+    font-weight: 900; /*насыщенность шрифта*/
     width: 50%; /*ширина элемента - 50% от вершины родительского контейнера*/
-    height: 100px;
-    padding: 20px;
+    height: 100px; /*высота элемента*/
+    padding: 20px; /*внутренние отступы*/
 
-    border: 5px solid black;
+    border: 5px solid black; /*граница элемента (толщина, стиль, цвет)*/
     border-width: 5px 10px 15px 20px; /*начинаем с левой стороны*/
-    border-style: dotted solid dashed double;
+    border-style: dotted solid dashed double; /*пунктирный, сплошной, пунктирный, двойной*/
     border-color: red green blue yellow;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 10px; /*скругление углов*/
+    margin: 10px; /*внешние отступы*/
 }

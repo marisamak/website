@@ -1,0 +1,53 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.btn {
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.block1 {
+    background-color: yellow;
+}
+
+.block2 {
+    background-color: orange;
+}
+
+.block3 {
+    background-color: pink;
+}
+
+.table1 {
+    background-color: grey;
+}
+
+.table2 {
+    background-color: lightgray;
+}
+
+.table3 {
+    background-color: grey;
+}
+
+.table4 {
+    background-color: lightgray;
+}
+
+.table5 {
+    background-color: grey;
+}
+
+a:hover {
+    color: violet;
+    border-bottom: dotted purple;
+}

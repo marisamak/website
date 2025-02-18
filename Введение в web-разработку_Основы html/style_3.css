@@ -3,7 +3,7 @@ div {
     height: 100px;
     background-color: deeppink;
     border-radius: 50%;
-    position: fixed; /*absolut, fixed*/
+    position: fixed; /*absolut, static, relative*/
     top: 500px;
     left: 500px;
 }
